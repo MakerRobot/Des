@@ -83,7 +83,7 @@ public class LibroAdapter extends RecyclerView.Adapter<LibroAdapter.ViewHolder> 
             viewHolder.Imageproducto.setImageDrawable(ContextCompat
                     .getDrawable(context,R.mipmap.ic_launcher_round));
         }
-
+//
         if (libro.isNuevo()){
             viewHolder.cardCaracteristica.setVisibility(View.VISIBLE);
         }else{
